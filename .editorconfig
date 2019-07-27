@@ -1,0 +1,43 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[{*.json,*.json.example,*.gyp,*.yml,*.yaml,*.workflow}]
+indent_style = space
+indent_size = 2
+
+[{*.py,*.asm}]
+indent_style = space
+
+[*.py]
+indent_size = 4
+
+[*.asm]
+indent_size = 8
+
+[*.md]
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 2
+
+# Ideal settings - some plugins might support these
+[*.js,*.jsx,*.ts,*.tsx]
+quote_type = single
+indent_style = space
+indent_size = 2
+
+[{*.c,*.cc,*.h,*.hh,*.cpp,*.hpp,*.m,*.mm,*.mpp,*.java,*.go,*.rs,*.php,*.ng,*.d,*.cs,*.swift}]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[{*.c,*.cc,*.h,*.hh,*.cpp,*.hpp,*.m,*.mm,*.mpp,*.js,*.java,*.go,*.rs,*.php,*.ng,*.jsx,*.ts,*.tsx,*.d,*.cs,*.swift}]
+curly_bracket_next_line = false
+spaces_around_operators = true
+spaces_around_brackets = outside
+# close enough to 1TB
+indent_brace_style = K&R

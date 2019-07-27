@@ -1,0 +1,7 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "extends": ["plugin:prettier/recommended"]
+}

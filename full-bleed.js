@@ -2,7 +2,7 @@ module.exports = function() {
   return function({ addUtilities, variants }) {
     addUtilities(
       {
-        'full-bleed': {
+        '.full-bleed': {
           width: '100vw',
           'margin-inline-start': '50%',
           'margin-inline-end': 'unset',
